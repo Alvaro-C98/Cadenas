@@ -14,7 +14,7 @@ public class CadenasApplication {
 	}
 	@RequestMapping("/")
 	public String helloClient() {
-		return "Hello CLient! How are you doing?";
+		return "Hello Client! How are you doing?";
 	}
 	
 	@RequestMapping("/random")
